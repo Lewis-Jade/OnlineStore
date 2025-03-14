@@ -155,6 +155,7 @@ i{
     text-decoration: none;
     color: #fff;
     font-weight: 600;
+    transition: 0.5s ease-in-out;
     border-radius: 10px;
 }
 .back:hover{
