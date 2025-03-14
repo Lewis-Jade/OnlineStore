@@ -11,6 +11,11 @@
     <div class="container">
         <section  class="cart">
             <h1> welcome to Devv Electronics</h1>
+          <div class="main-link">    
+            
+          <a href=""   class="back"> <i class="fa-solid fa-arrow-left-long"></i>Go Back</a>
+        
+        </div>
         </section>
         <section  class="form-section">
          <form action="">
@@ -30,7 +35,7 @@
          <input type="submit"  value="Login">
          <div class="links">
             <a href="#">Forgot password?</a>
-            <a href="#">Don't have an Account yet?</a>
+            <a href="signup.php">Don't have an Account yet?</a>
          </div>
          
          </form>
