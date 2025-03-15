@@ -93,7 +93,7 @@ input:focus{
                  -4px -4px 8px #1111111c;
     background: #fff;
     transform: translateY(-5px);
-    border: 2px solid #f1db12;
+    border: 2px solid #2b2919;
 }
 
 input[type="submit"]{
