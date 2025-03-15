@@ -10,6 +10,7 @@
     <div class="container">
         <a href="login.php">Login</a>
     <section>
+        <!-- <h1>Lets get You an Account Right Now!</h1> -->
           <form action="">
             <h2>Sign Up </h2>
             <div class="inputBox">

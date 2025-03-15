@@ -86,12 +86,14 @@ select{
     margin-top: 20px;
     outline: none;
     border-radius: 10px;
+    border: none;
 }
 input:focus{
     box-shadow: 4px 4px 8px #1111111c,
                  -4px -4px 8px #1111111c;
     background: #fff;
     transform: translateY(-5px);
+    border: 2px solid #f1db12;
 }
 
 input[type="submit"]{
@@ -115,7 +117,7 @@ label{
 }
 input[type="submit"]:hover{
        transform: translateY(-5px);
-
+       background: #f5e9b2;
 
 }
 
@@ -140,4 +142,5 @@ a{
 }
 a:hover{
     transform: translateY(-5px);
+    background: #fff;
 }

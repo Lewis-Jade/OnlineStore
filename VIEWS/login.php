@@ -13,7 +13,7 @@
             <h1> welcome to Devv Electronics</h1>
           <div class="main-link">    
             
-          <a href=""   class="back"> <i class="fa-solid fa-arrow-left-long"></i>Go Back</a>
+          <a href="index.php"   class="back"> <i class="fa-solid fa-arrow-left-long"></i>Go Back</a>
         
         </div>
         </section>
