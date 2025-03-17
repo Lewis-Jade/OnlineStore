@@ -10,11 +10,11 @@
     <header>
          <div  class="header">
           <div class="links">
-          <a href="#">About</a>
+          <a href="#about">About</a>
           </div>
        
           <div class="links">
-          <a href="#">Products</a>
+          <a href="#products">Products</a>
           </div>
          
 
@@ -26,12 +26,16 @@
     </header>
 
    <div class="container">
-    <section  class="about">
+    <section  class="about"  id="about">
            <div class="image">
             
            </div>
            <div class="image-two">
-            <p>Gadgets, Devices, Tech, Innovation, Smart, Quality, Affordable, Reliable, Latest, Accessories, Power, Secure, Fast, Performance, Deals, Trends, Shopping, Convenience, Excellence</p>
+            <h3>Welcome To Devv Electronics</h3>
+            <p>Gadgets, Devices, Tech, Innovation, Smart, Quality, Affordable, Reliable, Latest, Accessories, Power, Secure, Fast, Performance, Deals, Trends, Shopping, Convenience, Excellence
+      
+                 <strong>Join us Today!</strong>
+            </p>
             <div  class="get-started">
             <a href="signup.php">Get Started</a>
             </div>
@@ -39,7 +43,7 @@
            </div>
          
     </section>
-    <section  class="products">
+    <section  class="products"  id="products">
 
     </section>
    </div>

@@ -125,7 +125,8 @@ a{
     position: absolute;
     left: 20px;
     top: 10px;
-    width: 200px;
+    width:  50px;
+    height: 50px;
     padding: 5px;
     text-decoration: none;
     background-color: #fff;
@@ -135,12 +136,21 @@ a{
     display: flex;
     justify-content: center;
     text-align: center;
+    justify-content: center;
     align-content: center;
-    border-radius: 10px;
+    text-align: center;
+    border-radius: 50%;
     transition: 0.5s ease-in-out;
 
 }
 a:hover{
-    transform: translateY(-5px);
+  
+    transform: translateX(-10px);
     background: #fff;
+    box-shadow: 2px 2px 6px #2b2919,
+                -2px -2px 6px #2b2919;;
+}
+i{
+    font-size:50px ;
+    color: rgba(226, 86, 5, 0.986); 
 }
