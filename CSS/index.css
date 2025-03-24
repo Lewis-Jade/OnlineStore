@@ -10,6 +10,7 @@
 body{
     height: 100vh;
     display: flex;
+   
     justify-content: center;
     align-items: center;
 }
@@ -19,6 +20,7 @@ header{
     width: 98%;
     top: 5px;
     z-index: 2;
+
     border-radius: 10px;
     box-shadow: 2px 2px 5px #00000044,
     -2px -2px 5px #00000044;
@@ -64,7 +66,9 @@ a:hover{
     background: #0e049b;
 }
 .container{
-    position: relative;
+    position: relative; 
+  
+
     height: 100%;
     width: 100%;
     overflow-y: scroll;
@@ -174,6 +178,9 @@ strong{
       font-size: 56px;
       color: #f9fd11;
 }
+.products{
+    background-color: #f3e8e8;
+}
 h3{
     position: absolute;
     top:10px;
@@ -187,4 +194,139 @@ h3{
 h3:hover{
     color: #000;
     transform: translateX(10px);
+}
+.main{
+    height: 500px;
+    width: 800px;
+    background: #f8f8d4cb;
+    position: absolute;
+    box-shadow: 2px 2px 4px #00000011,
+                 -2px -2px 4px #00000011;
+    border-radius: 10px;
+    top:auto;
+    left: 5px;
+     padding: 5px;
+      bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 10px;
+
+}
+.product-display{
+    position: relative;
+    height: 250px;
+
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px #00000011,
+    -2px -2px 4px #00000011;
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    transition: 0.5s ease-in-out;
+}
+.description{
+    height:20% ;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    text-align: center;
+    background-color: #04021a;
+    color: #fff;
+}
+.camera{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-image: url(../IMG/kamenje.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.phone{
+
+    height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  background-image: url(../IMG/iphone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+}
+.printer{
+
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+  background-image: url(../IMG/printer.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+} 
+.tv{
+
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+  background-image: url(../IMG/katv.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+} 
+.watch{
+
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+  background-image: url(../IMG/watch.png);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+} 
+.laptop{
+
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  
+  background-image: url(../IMG/laptop.jpg);
+
+  background-size: cover;
+  background-repeat: no-repeat;
+    
+} 
+.product-display:hover{
+  
+    transform: translateY(-10px);
 }

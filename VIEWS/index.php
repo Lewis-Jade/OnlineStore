@@ -9,13 +9,16 @@
 <body>
     <header>
          <div  class="header">
+
+         <div class="links">
+          <a href="#products">Products</a>
+          </div>
+
           <div class="links">
           <a href="#about">About</a>
           </div>
        
-          <div class="links">
-          <a href="#products">Products</a>
-          </div>
+         
          
 
           <div class="links">
@@ -26,6 +29,60 @@
     </header>
 
    <div class="container">
+   <section  class="products"  id="products">
+      
+      <div class="main">
+          <!-- //product secttion -->
+          <div class="product-display">
+        
+
+               <div class="camera">
+
+               </div>
+               <div class="description">
+                    <h5>camera</h5>
+               </div>
+
+          </div>
+
+          <div class="product-display">
+          <!-- phone -->
+          <div class="phone"></div>
+          <div class="description">
+                    <h5>phone</h5>
+               </div>
+                  
+          </div>
+          <div class="product-display">
+            <div class="printer"></div>
+            <div class="description">
+                    <h5>printer</h5>
+               </div>
+          </div>
+          <div class="product-display">
+          <div class="watch"></div>
+          <div class="description">
+                    <h5>watch</h5>
+               </div>
+          </div>
+
+
+          <div class="product-display">
+          <div class="tv"></div>
+          <div class="description">
+                    <h5>tv</h5>
+               </div>
+          </div>
+          <div class="product-display">
+          <div class="laptop"></div>
+          <div class="description">
+                    <h5>laptop</h5>
+               </div>
+          </div>
+     </div>
+</section>
+
+
     <section  class="about"  id="about">
            <div class="image">
             
@@ -43,9 +100,7 @@
            </div>
          
     </section>
-    <section  class="products"  id="products">
-
-    </section>
+   
    </div>
 </body>
 </html>
