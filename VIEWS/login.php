@@ -41,7 +41,7 @@ session_start();
          </div>
          <input type="submit" name="submit"  value="Login">
          <div class="links">
-            <a href="#">Forgot password?</a>
+            <a href="forgot_password.php">Forgot password?</a>
             <a href="signup.php">Don't have an Account yet?</a>
          </div>
          

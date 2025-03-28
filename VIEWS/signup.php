@@ -5,15 +5,6 @@ session_start();
 
 ?>
 
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +12,7 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
     <link rel="stylesheet" href="../CSS/signup.css">
-    >
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -85,7 +76,7 @@ session_start();
 
             </div>
 
-            <input type="submit" name="submit"v value="Sign Up">
+            <input type="submit" name="submit" value="Sign Up">
              
           </form>
 
@@ -102,5 +93,5 @@ session_start();
         </section>
     </div>
 </body>
-<script src="../SCRIPTS/index.js"></script
+<script src="../SCRIPTS/index.js"></script>
 </html>
