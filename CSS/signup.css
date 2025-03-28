@@ -28,6 +28,7 @@ body{
     justify-content: center;
     align-items: center;   
      flex-direction: column;
+ 
 
 
 }
@@ -51,6 +52,7 @@ form{
 h1,h2{
     color: #fff;
 }
+
 .inputBox{
     width: 50%;
     height: 80%;
@@ -154,3 +156,45 @@ i{
     font-size:50px ;
     color: rgba(226, 86, 5, 0.986); 
 }
+p{
+    color: #ff0000;
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    left: 40%;
+    width: 400px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 47px;
+    background: #fff;
+    box-shadow: 2px 2px 6px #2b2919,
+                -2px -2px 6px #2b2919;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.two{
+  
+    display:flex;
+    justify-content: start;
+}
+.two input{
+    margin-top: 45px;
+}
+.pwd{
+    position: relative;
+    height: 40px;
+    width: 90%;
+    background-color: red;
+}
+img{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    cursor: pointer;
+}
+
+

@@ -22,22 +22,66 @@
 
         }
         div{
+            position: relative;
+            z-index: 2;
             height:300px;
-            width: 400px;
+            width: 450px;
             background:red;
             background:#fff;
             border-radius:8px;
             box-shadow: 2px 2px 5px #00000044,
                  -2px -2px 5px #00000044;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+
+            flex-direction:column;
 
         }
+        button{
+            width: 80%;
+            height:50px;
+            border:none;
+            box-shadow: 2px 2px 5px #00000044,
+            -2px -2px 5px #00000044;
+            border-radius:10px;
+            background:rgba(24, 37, 150, 0.59);
+
+        }
+        a{
+            width: 100%;
+            height:100%;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:rgba(24, 41, 190, 0.97);
+            color:#fff;
+            border-radius:10px;
+            text-decoration:none;
+            font-size:20px;
+            transition:0.5s ease-in-out;
+        }
+        a:hover{
+            transform:translateY(-10px);
+        }
+        p{
+            position: absolute;
+            top:10px;
+            color:rgba(28, 155, 11, 0.97);
+            font-size:20px;
+            font-weight:500;
+        }
+        
     </style>
 </head>
 <body>
     <div>
+        <p>Sign Up success.Proceed to login</p>
+  
 
+    <button><a href="login.php">Login</a></button>
 
-
+ 
 
     </div>
 </body>

@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,27 +25,37 @@
         </div>
         </section>
         <section  class="form-section">
-         <form action="">
+         <form action="../INCLUDES/login.inc.php" method="POST">
          <h2>Hello Again!</h2>
          <h5>Welcme Back</h5>
          <div class="inputBox">
          <i class="fa-solid fa-envelope"></i>
          
-            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Email" name="email" required>
          </div>
          
          <div class="inputBox">
          <i class="fa-solid fa-lock"></i>
-         <input type="password"  placeholder="Password">
+         <input type="password"  placeholder="Password"  name="password" required>
   
          </div>
-         <input type="submit"  value="Login">
+         <input type="submit" name="submit"  value="Login">
          <div class="links">
             <a href="#">Forgot password?</a>
             <a href="signup.php">Don't have an Account yet?</a>
          </div>
          
          </form>
+        <?php
+           if(isset($_SESSION['message'])){
+            echo '<p>'.$_SESSION['message'].'</p>';
+             unset($_SESSION['message']);
+
+           }
+        
+        
+        ?>
+
         
 
         </section>
