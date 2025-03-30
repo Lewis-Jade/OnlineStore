@@ -20,7 +20,7 @@ if(isset($_POST['submit'])){
   
   if($password !== $confrirm_password){
 
-     $_SESSION['message'] = "Password do not match!";
+     $_SESSION['message'] = "Passwords do not match!";
      header("Location: ../VIEWS/reset_password.php");
 
      die();
@@ -30,10 +30,10 @@ if(isset($_POST['submit'])){
   $hash = password_hash($password,PASSWORD_DEFAULT);
   $stmt = $conn->prepare("UPDATE users SET password = ? WHERE email = ?");
   $stmt->bind_param('ss',$hash,$email);
-
+ 
   if( $stmt->execute()){
-    $_SESSION['message'] ="Password updated successfully!";
-    session_destroy();
+
+    $_SESSION['success-message'] ="Password updated successfully!";
     header("Location:  ../VIEWS/login.php");
 
      die();
