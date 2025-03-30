@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
 
     $subject = "Password Reset OTP";
     $message = "Your OTP is: " . $otp;
-    $headers = "From: no-reply@example.com";
+    $headers = "From: no-reply@email.com";
 
     if (mail($email, $subject, $message, $headers)) {
         $_SESSION['message']="An OTP has been send to your email";
