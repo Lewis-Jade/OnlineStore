@@ -33,6 +33,15 @@ session_start();
         }
         p{
             color:#ff0000;
+            width: 90%;
+            height:50px;
+            background:#fff;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            box-shadow:2px 2px 24px rgba(0, 0, 0, 0.36),
+            -2px -2px 24px rgba(0, 0, 0, 0.36);
+            border-radius:10px;
         }
         form{
             height:350px;
@@ -100,7 +109,7 @@ session_start();
      <img  id="eye-two"  src="../IMG/visual.png">
      <input type="password" name="confirm-password"  autocomplete="new-password" id="confirm-password"  placeholder="confirm password" required>
      </div>
-    <input type="submit"  name="submit"  value="reset">
+    <input type="submit"  name="submit"  value="reset password">
     </form>
     <?php
       if(isset( $_SESSION['message'])){
@@ -112,6 +121,7 @@ session_start();
     
     
     ?>
+    
 </body>
 <script src="../SCRIPTS/main.js"></script>
 </html>

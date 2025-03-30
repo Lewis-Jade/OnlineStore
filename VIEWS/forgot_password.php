@@ -119,7 +119,9 @@ session_start();
     <form action="../INCLUDES/forgotpassword.inc.php" method="POST">
     <h1>Forgot password</h1>
     <input type="email" name="email" placeholder="email" required>
-    <input type="submit"  name="submit" value="send otp">
+    <input type="submit"  name="submit" value="send otp"id="otpButton" onclick="sendOTP()">
+    
+    <p id="loadingMessage" style="display: none;">Sending OTP...</p>
     </form>
     <?php
       if(isset( $_SESSION['message'])){
@@ -132,4 +134,20 @@ session_start();
     
     ?>
 </body>
+
+
+<script>
+function sendOTP() {
+    document.getElementById("otpButton").disabled = true;
+    document.getElementById("loadingMessage").style.display = "block";
+
+
+    setTimeout(() => {
+        document.getElementById("loadingMessage").style.display = "none";
+        document.getElementById("otpButton").disabled = false;
+    
+    }, 3000); 
+}
+</script>
+
 </html>

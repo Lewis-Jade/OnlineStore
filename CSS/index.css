@@ -20,7 +20,7 @@ header{
     width: 98%;
     top: 5px;
     z-index: 2;
-
+    background: #fff;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #00000044,
     -2px -2px 5px #00000044;
