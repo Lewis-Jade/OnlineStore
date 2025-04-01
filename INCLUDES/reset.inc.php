@@ -1,5 +1,6 @@
 <?php
 session_start();
+
 if(isset($_POST['submit'])){
    require_once('dbh.inc.php');
   $password = $_POST['password'];
@@ -47,5 +48,5 @@ if(isset($_POST['submit'])){
 
 
 
-
 }
+

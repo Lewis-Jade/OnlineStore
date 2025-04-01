@@ -59,7 +59,7 @@ session_start();
     
         if(isset($_SESSION['success-message'])){
             echo "<p style='color: green;'>" . $_SESSION['success-message'] . "</p>";
-            unset($_SESSION['success-message']); // Remove only the message, keep OTP
+            unset($_SESSION['success-message']);
         }
 
 
