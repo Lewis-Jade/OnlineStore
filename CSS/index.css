@@ -19,7 +19,7 @@ header{
     height: 50px;
     width: 98%;
     top: 5px;
-    z-index: 2;
+    z-index: 4;
     background: #fff;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #00000044,
@@ -329,4 +329,63 @@ h3:hover{
 .product-display:hover{
   
     transform: translateY(-10px);
+}
+
+.onine-image{
+    width: 200px;
+    height: 200px;
+   background-image: url(../IMG/onineshop.png);
+   background-size: cover;
+    position: absolute;
+    right:0;
+    top: 210px;
+}
+img{
+    position: absolute;
+    top: 250px;
+    right: 0;
+    width: 400px;
+    z-index: 2;
+    height: 500px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+img:hover{
+transform: scale(1.2);
+}
+.describe{
+    position: absolute;
+    right: 110px;
+    top: 50px;
+    height: 250px;
+    width: 300px;
+    background-color: rgba(10, 7, 22, 0.966);
+    border-top-right-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.get-link{
+
+    text-decoration: none;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    background: #055d97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.get-link:hover{
+    background: #2353f0;
 }

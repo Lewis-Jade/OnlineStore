@@ -29,8 +29,14 @@
     </header>
 
    <div class="container">
+
    <section  class="products"  id="products">
-      
+     <div class="describe">
+          Exclusive Deals
+          <a href="signup.php" class="get-link">Get Started</a>
+     </div>
+   <img src="../IMG/man.png" alt="">
+      <div class="onine-image"></div>
       <div class="main">
           <!-- //product secttion -->
           <div class="product-display">
