@@ -8,6 +8,8 @@
 </head>
 <body>
     <header>
+       <div class="logo"></div>
+       <h4>Devv Electronics</h4>
          <div  class="header">
 
          <div class="links">

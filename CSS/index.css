@@ -389,3 +389,21 @@ transform: scale(1.2);
 .get-link:hover{
     background: #2353f0;
 }
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-image: url(../IMG/onineshop.png);
+    background-size: cover;
+    position: absolute;
+    left: 10px;
+    top: 0;
+
+}
+h4{
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    font-size: 20px;
+    color: rgba(62, 30, 207, 0.966);
+}
