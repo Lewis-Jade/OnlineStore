@@ -32,7 +32,7 @@
 
    <section  class="products"  id="products">
      <div class="describe">
-          Exclusive Deals
+          Exclusive Deals!.Click here
           <a href="signup.php" class="get-link">Get Started</a>
      </div>
    <img src="../IMG/man.png" alt="">
