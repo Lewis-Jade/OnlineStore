@@ -55,7 +55,7 @@ if(isset($_POST['submit'])){
 
      
 
-     $result = $stmt->execute();;
+     $result = $stmt->execute();
 
      if($result){
 
